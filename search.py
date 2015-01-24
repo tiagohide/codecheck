@@ -1,10 +1,8 @@
 #!/usr/bin/env python
 import re,sys,os
 from Match import * 
-
-# Code Check Search 0.1 is a search tool to look for sensitive function in java and in the future for .net as well 
-# This is tool helps developers and security analystis to looking into
-# sensitive functions in their codes for reviewing purporse it is a simple tool that prints the line number of the code and the function that they should investigate for possible flaws
+#Code Check Search 0.1 is a search tool that look for sensitive function in java and in the future for .net as well 
+#Code Check helps developers and security community to looking into sensitive functions in their codes for reviewing purpore it is a simple tool that prints the line number of the code and the function that they should investigate for possible flaws
 
 
 print "Code Check 0.1 - A search tool for sensitive functions for java "
