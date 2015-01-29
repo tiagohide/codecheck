@@ -59,13 +59,10 @@ def search(o,p,q):
     for x in xrange(len(o)):
         match = re.search(o[x], p)
         if match:
-            result = match.group()
-            #print result
-            return result
+            #result = match.group()
+            return  p 
             #print q 
             return q 
-        else:
-            result = ""
 
 def lcookies(code):
     print "Looking for COOKIES"
